@@ -4,11 +4,11 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0f1a,50:6C63FF,100:FF6584&height=200&section=header&text=FRONTEND%20SKILLS&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Design%20Intelligence%20for%20Claude%20Code&descAlignY=58&descSize=18&animation=fadeIn" width="100%"/>
 
 <!-- Animated typing -->
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=6C63FF&center=true&vCenter=true&width=600&lines=19+Design+Skill+Agents.;Drop+in.+Plug+in.+Build+beautiful+things.;From+Tailwind+to+Dark+UI+to+High-End+Visual.;These+aren't+prompts.+These+are+agents+with+taste." alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=6C63FF&center=true&vCenter=true&width=600&lines=20%2B+Design+Skill+Agents.;Drop+in.+Plug+in.+Build+beautiful+things.;From+Tailwind+to+Dark+UI+to+High-End+Visual.;These+aren't+prompts.+These+are+agents+with+taste." alt="Typing SVG" />
 
 <br/>
 
-[![Skills](https://img.shields.io/badge/Skills-19%20Agents-6C63FF?style=for-the-badge&logo=buffer&logoColor=white)](.)
+[![Skills](https://img.shields.io/badge/Skills-20%2B%20Agents-6C63FF?style=for-the-badge&logo=buffer&logoColor=white)](.)
 [![Focus](https://img.shields.io/badge/Focus-UI%2FUX%20Design-FF6584?style=for-the-badge&logo=figma&logoColor=white)](.)
 [![Status](https://img.shields.io/badge/Status-Active-22C55E?style=for-the-badge&logo=statuspal&logoColor=white)](.)
 [![PRs](https://img.shields.io/badge/PRs-Welcome-FF9F43?style=for-the-badge&logo=github&logoColor=white)](.)
@@ -108,6 +108,7 @@ Once the `.agents` folder is in your project root, your AI agent will **automati
 | 🚀 | `ui-ux-pro-max` | Elite UI/UX — for when good isn't enough |
 | 🔍 | `ui-visual-validator` | Validates visual output against design principles |
 | 📏 | `web-design-guidelines` | Opinionated web design standards & best practices |
+| 🎬 | `remotion` | Code-driven video & animation design with React |
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
