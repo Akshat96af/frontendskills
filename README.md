@@ -31,15 +31,25 @@ A growing arsenal of **design intelligence** — each folder is a standalone Cla
 
 ## 🚀 Quick Setup
 
-### Step 1 — Clone the repo
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=15&pause=2000&color=6C63FF&center=true&vCenter=true&width=500&lines=3+steps.+Under+60+seconds." alt="Typing SVG" />
+
+<br/>
+
+**`01`** &nbsp;—&nbsp; Clone &nbsp;&nbsp;&nbsp; **`02`** &nbsp;—&nbsp; Drop in `.agents` &nbsp;&nbsp;&nbsp; **`03`** &nbsp;—&nbsp; Run Claude
+
+</div>
+
+<br/>
+
+**Step 1 — Clone the repo**
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/frontend-skills.git
 ```
 
-### Step 2 — Drop the `.agents` folder into your working directory
-
-This is the only step that matters. Copy or move the `.agents` folder directly into the **root of your project**:
+**Step 2 — Drop the `.agents` folder into your project root**
 
 ```
 your-project/
@@ -49,20 +59,20 @@ your-project/
 │       ├── design-md/
 │       ├── frontend-design/
 │       └── ... (all skill folders)
-├── src/
-├── package.json
-└── ...
+└── src/
 ```
 
-> 💡 The `.agents` folder must sit at the **root level** of your working directory so Claude Code can detect and load the skills automatically.
+> 💡 `.agents` must live at the **root level** so Claude Code auto-detects and loads the skills.
 
-### Step 3 — Start Claude Code in your project
+**Step 3 — Start your AI agent**
 
-```bash
-claude
-```
+Once the `.agents` folder is in your project root, your AI agent will **automatically detect and reference these skills** — no extra config needed. Just start working and it will pull design intelligence from the relevant skill folders as context.
 
-That's it. The skills are now active. Claude will reference them when working on UI/design tasks.
+<div align="center">
+
+✅ &nbsp; **Done. Your agent now has taste.**
+
+</div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
@@ -107,9 +117,7 @@ A curated list of tools, galleries, and component libraries that pair perfectly 
 
 <br/>
 
-<details>
-<summary><b>🎨 Design Inspiration</b> — click to expand</summary>
-<br/>
+### 🎨 Design Inspiration
 
 | Resource | Description |
 |---|---|
@@ -118,11 +126,7 @@ A curated list of tools, galleries, and component libraries that pair perfectly 
 | [getdesign.md](https://getdesign.md/) | Top-tier website design styles & aesthetics |
 | [shadergradient.co](https://shadergradient.co/) | Beautiful animated shader gradients for backgrounds |
 
-</details>
-
-<details>
-<summary><b>🧩 Components & UI Libraries</b> — click to expand</summary>
-<br/>
+### 🧩 Components & UI Libraries
 
 | Resource | Description |
 |---|---|
@@ -134,18 +138,12 @@ A curated list of tools, galleries, and component libraries that pair perfectly 
 | [typeui.sh](https://www.typeui.sh/) | Typography-first UI system |
 | [21st.dev](https://21st.dev/community/components) | Community-driven component library |
 
-</details>
-
-<details>
-<summary><b>🛠️ Dev Resources</b> — click to expand</summary>
-<br/>
+### 🛠️ Dev Resources
 
 | Resource | Description |
 |---|---|
 | [blog.vibecoder.me](https://blog.vibecoder.me/) | Templates, APIs & database patterns |
 | [promptweb.design](https://www.promptweb.design/) | Web design prompts for AI-assisted building |
-
-</details>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
@@ -167,13 +165,6 @@ If this repo saves you time or levels up your UI output — a star goes a long w
 
 <br/>
 
-<div align="center">
-
-[![Star History Chart](https://api.star-history.com/svg?repos=YOUR_USERNAME/frontend-skills&type=Date&theme=dark)](https://star-history.com/#YOUR_USERNAME/frontend-skills&Date)
-
-</div>
-
-<br/>
 
 <!-- Animated footer -->
 <div align="center">
