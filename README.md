@@ -81,7 +81,7 @@ Once the `.agents` folder is in your project root, your AI agent will **automati
 <div align="center">
 
 <!-- Animated skill count -->
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=16&pause=2000&color=FF6584&center=true&vCenter=true&width=400&lines=19+agents.+Each+one+purpose-built." alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=16&pause=2000&color=FF6584&center=true&vCenter=true&width=400&lines=20%2B+agents.+Each+one+purpose-built." alt="Typing SVG" />
 
 </div>
 
