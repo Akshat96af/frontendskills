@@ -4,7 +4,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0f1a,50:6C63FF,100:FF6584&height=200&section=header&text=FRONTEND%20SKILLS&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Design%20Intelligence%20for%20Claude%20Code&descAlignY=58&descSize=18&animation=fadeIn" width="100%"/>
 
 <!-- Animated typing -->
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=6C63FF&center=true&vCenter=true&width=600&lines=20%2B+Design+Skill+Agents.;Drop+in.+Plug+in.+Build+beautiful+things.;From+Tailwind+to+Dark+UI+to+High-End+Visual.;These+aren't+prompts.+These+are+agents+with+taste." alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=6C63FF&center=true&vCenter=true&width=800&lines=20%2B+Design+Skill+Agents.;Drop+in.+Plug+in.+Build+beautiful+things.;From+Tailwind+to+Dark+UI+to+High-End+Visual.;These+aren't+prompts.+These+are+agents+with+taste." alt="Typing SVG" />
 
 <br/>
 
