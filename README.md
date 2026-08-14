@@ -134,18 +134,22 @@ A curated list of tools, galleries, and component libraries that pair perfectly 
 | [motionsites.ai](https://motionsites.ai/) | Motion design & animated website inspiration |
 | [getdesign.md](https://getdesign.md/) | Top-tier website design styles & aesthetics |
 | [shadergradient.co](https://shadergradient.co/) | Beautiful animated shader gradients for backgrounds |
+| [horizonx.so](https://horizonx.so) | Library of UI kits, components and Figma files for projects |
+| [getlayers.ai](https://www.getlayers.ai/) | Sites library |
 
 ### 🧩 Components & UI Libraries
 
 | Resource | Description |
 |---|---|
-| [ui.aceternity.com](https://ui.aceternity.com/components) | Stunning animated React components |
+| [ui.aceternity.com](https://ui.aceternity.com/) | Production-ready components, blocks and templates |
 | [componentry.fun](https://www.componentry.fun/) | Motion-first interactive components |
 | [skiper-ui.com](https://skiper-ui.com/) | Premium web component collection |
 | [cult-ui.com](https://www.cult-ui.com/) | Components & templates with personality |
 | [ui.watermelon.sh](https://ui.watermelon.sh/) | Fresh, modern component templates |
 | [typeui.sh](https://www.typeui.sh/) | Typography-first UI system |
 | [21st.dev](https://21st.dev/community/components) | Community-driven component library |
+| [reactbits.dev](https://reactbits.dev/) | Animated components & backgrounds |
+| [uiverse.io](https://uiverse.io/) | Community-built library of UI elements |
 
 ### 🛠️ Dev Resources
 
