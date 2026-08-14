@@ -4,11 +4,11 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0f1a,50:6C63FF,100:FF6584&height=200&section=header&text=FRONTEND%20SKILLS&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Design%20Intelligence%20for%20Claude%20Code&descAlignY=58&descSize=18&animation=fadeIn" width="100%"/>
 
 <!-- Animated typing -->
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=6C63FF&center=true&vCenter=true&width=800&lines=20%2B+Design+Skill+Agents.;Drop+in.+Plug+in.+Build+beautiful+things.;From+Tailwind+to+Dark+UI+to+High-End+Visual.;These+aren't+prompts.+These+are+agents+with+taste." alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=6C63FF&center=true&vCenter=true&width=800&lines=30%2B+Design+Skill+Agents.;Drop+in.+Plug+in.+Build+beautiful+things.;From+Tailwind+to+Dark+UI+to+High-End+Visual.;These+aren't+prompts.+These+are+agents+with+taste." alt="Typing SVG" />
 
 <br/>
 
-[![Skills](https://img.shields.io/badge/Skills-20%2B%20Agents-6C63FF?style=for-the-badge&logo=buffer&logoColor=white)](.)
+[![Skills](https://img.shields.io/badge/Skills-30%2B%20Agents-6C63FF?style=for-the-badge&logo=buffer&logoColor=white)](.)
 [![Focus](https://img.shields.io/badge/Focus-UI%2FUX%20Design-FF6584?style=for-the-badge&logo=figma&logoColor=white)](.)
 [![Status](https://img.shields.io/badge/Status-Active-22C55E?style=for-the-badge&logo=statuspal&logoColor=white)](.)
 [![PRs](https://img.shields.io/badge/PRs-Welcome-FF9F43?style=for-the-badge&logo=github&logoColor=white)](.)
@@ -79,7 +79,7 @@ Once the `.agents` folder is in your project root, your AI agent will **automati
 <div align="center">
 
 <!-- Animated skill count -->
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=16&pause=2000&color=FF6584&center=true&vCenter=true&width=400&lines=20%2B+agents.+Each+one+purpose-built." alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=16&pause=2000&color=FF6584&center=true&vCenter=true&width=400&lines=30%2B+agents.+Each+one+purpose-built." alt="Typing SVG" />
 
 </div>
 
@@ -88,16 +88,27 @@ Once the `.agents` folder is in your project root, your AI agent will **automati
 | &nbsp; | Folder | What It Does |
 |:---:|---|---|
 | 🔷 | `angular-ui-patterns` | Angular-specific component architecture & design patterns |
+| 🪄 | `animate` | Builds animations from scratch with correct curves and duration |
+| 💬 | `animation-vocabulary` | The right words to get better animations from AI |
 | 🌌 | `antigravity-design-expert` | Advanced, gravity-defying visual compositions |
+| 🍏 | `apple-design` | Apple's interface and fluid motion principles for the web |
+| 🍞 | `ask-sonner` | Complete guide to Sonner toasts: setup, styling, recipes, and fixes |
 | 📐 | `design-md` | Markdown-driven design documentation & system specs |
 | 🎨 | `design-taste-frontend` | Opinionated aesthetic direction with real taste |
+| 🛠️ | `emil-design-eng` | Core animation principles and opinionated design advice |
+| 🎯 | `find-animation-opportunities` | Searches UI for genuine motion opportunities and what to avoid |
 | ✦ | `frontend-design` | Core UI design principles, layout, and visual systems |
 | 🌑 | `frontend-ui-dark-ts` | Dark mode UI with TypeScript-first component design |
 | 💎 | `high-end-visual-design` | Luxury-grade, production-quality visual output |
+| 📋 | `improve-animations` | Codebase-wide animation audits with self-contained plans |
 | ✨ | `magic-ui-generator` | Auto-generates UI components with visual flair |
 | ◻️ | `minimalist-ui` | Precision minimalism — every pixel justified |
 | 📱 | `mobile-design` | Mobile-first patterns, gestures, and responsive layouts |
+| 📦 | `pick-ui-library` | Picks trusted UI libraries instead of hand-rolling components |
+| 🔄 | `prototype` | Builds multiple UI versions to go through using a switcher |
 | 🧱 | `radix-ui-design-system` | Radix UI primitives, accessibility, and system tokens |
+| 🎬 | `remotion` | Code-driven video & animation design with React |
+| 🧐 | `review-animations` | Strict, rules-based review of your UI animations |
 | 🧵 | `stitch-ui-design` | Composable, stitched-together UI component systems |
 | 🌊 | `tailwind-design-system` | Tailwind CSS design tokens, utilities & scale |
 | 🖥️ | `ui` | General-purpose UI reasoning and component patterns |
@@ -106,7 +117,6 @@ Once the `.agents` folder is in your project root, your AI agent will **automati
 | 🚀 | `ui-ux-pro-max` | Elite UI/UX — for when good isn't enough |
 | 🔍 | `ui-visual-validator` | Validates visual output against design principles |
 | 📏 | `web-design-guidelines` | Opinionated web design standards & best practices |
-| 🎬 | `remotion` | Code-driven video & animation design with React |
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
