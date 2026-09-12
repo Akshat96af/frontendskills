@@ -44,7 +44,7 @@ A growing arsenal of **design intelligence** — each folder is a standalone Cla
 **Step 1 — Clone the repo**
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/frontend-skills.git
+git clone https://github.com/akshat96af/frontendskills.git
 ```
 
 **Step 2 — Drop the `.agents` folder into your project root**
