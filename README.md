@@ -125,6 +125,66 @@ npx skills add vercel-labs/agent-skills --skill web-design-guidelines
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
+## ⚡ More UI Skills & Plugins
+
+Extra UI-related installs beyond the index above.
+
+### Skills CLI
+
+```bash
+# Vercel web interface guidelines
+npx skills add https://github.com/vercel-labs/agent-skills --skill web-design-guidelines
+
+# ui-taste + ios-design
+npx skills add https://uizze.sh/
+
+# apple-design (alternative to the emilkowalski version above)
+npx skills add dickwu/apple-design-skill
+
+# Whole taste-skill pack (13 skills)
+npx skills add Leonxlnx/taste-skill
+```
+
+| Command | Installs |
+|---|---|
+| `uizze.sh` | `ui-taste`, `ios-design` |
+| `dickwu/apple-design-skill` | `apple-design` |
+| `Leonxlnx/taste-skill` | `design-taste-frontend` (+ `-v1`), `high-end-visual-design`, `minimalist-ui`, `industrial-brutalist-ui`, `redesign-existing-projects`, `stitch-design-taste`, `gpt-taste`, `brandkit`, `image-to-code`, `imagegen-frontend-web`, `imagegen-frontend-mobile`, `full-output-enforcement` |
+
+> ⚠️ Both `emilkowalski/skills` and `dickwu/apple-design-skill` ship an `apple-design` skill. Install only one.
+
+### Anthropic official skills
+
+```bash
+npx skills add anthropics/skills --skill canvas-design
+npx skills add anthropics/skills --skill theme-factory
+npx skills add anthropics/skills --skill brand-guidelines
+npx skills add anthropics/skills --skill web-artifacts-builder
+npx skills add anthropics/skills --skill frontend-design
+```
+
+### Claude Code plugins
+
+Run the `marketplace add` once per machine, then install.
+
+| Plugin | Marketplace add | Install |
+|---|---|---|
+| ui-ux-pro-max | `claude plugin marketplace add nextlevelbuilder/ui-ux-pro-max-skill` | `claude plugin install ui-ux-pro-max@ui-ux-pro-max-skill` |
+| ecc (`frontend-design-direction`, `design-system`, `frontend-a11y`, `liquid-glass-design`, `motion-*`, `taste`) | `claude plugin marketplace add affaan-m/ECC` | `claude plugin install ecc@ecc` |
+| design | `claude plugin marketplace add anthropics/knowledge-work-plugins` | `claude plugin install design@knowledge-work-plugins` |
+| figma | same as design | `claude plugin install figma@knowledge-work-plugins` |
+| canva | same as design | `claude plugin install canva@knowledge-work-plugins` |
+| frontend-slides (HTML decks) | `claude plugin marketplace add zarazhangrui/frontend-slides` | `claude plugin install frontend-slides@frontend-slides` |
+
+ui-ux-pro-max also has its own npm installer:
+
+```bash
+npm install -g ui-ux-pro-max-cli
+uipro init --ai universal --global
+```
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
 ## 🌐 Design Resources
 
 A curated list of tools, galleries, and component libraries that pair perfectly with these skills.
