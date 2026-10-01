@@ -161,6 +161,7 @@ A curated list of tools, galleries, and component libraries that pair perfectly 
 | Resource | Description |
 |---|---|
 | [threeui.com](https://threeui.com/browse) | Copy-ready Three.js components, WebGL backgrounds, hero sections & landing page templates |
+| [gsap.com/showcase](https://gsap.com/showcase/) | Official showcase of award-winning sites built with GSAP animation |
 
 ### 🛠️ Dev Resources
 
