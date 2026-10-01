@@ -70,8 +70,6 @@ npx skills add vercel-labs/agent-skills --skill web-design-guidelines
 
 > 💡 The CLI asks which agent(s) to install for and places the skills where that agent auto-detects them. No extra config needed.
 
-> 📁 `.agents/skills/ui` in this repo is a set of copy-ready shadcn/ui components, not a skill. It is the only thing stored here.
-
 <div align="center">
 
 ✅ &nbsp; **Done. Your agent now has taste.**
