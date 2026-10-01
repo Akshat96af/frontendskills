@@ -161,7 +161,6 @@ A curated list of tools, galleries, and component libraries that pair perfectly 
 | Resource | Description |
 |---|---|
 | [threeui.com](https://threeui.com/browse) | Copy-ready Three.js components, WebGL backgrounds, hero sections & landing page templates |
-| [animmasterlib.dev](https://animmasterlib.dev/) | 300 animated components: scroll, WebGL shaders, hero sections, sliders *(paid)* |
 
 ### 🛠️ Dev Resources
 
