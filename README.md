@@ -21,7 +21,7 @@
 
 ## ⚡ What Is This?
 
-A growing arsenal of **design intelligence** — each folder is a standalone Claude skill agent tuned for a specific area of frontend & UI/UX craft. From Tailwind systems to dark UI patterns, from mobile-first layouts to high-end visual polish — this repo turns Claude into a design expert on demand.
+A growing arsenal of **design intelligence** — each entry is a standalone Claude skill agent, installed with one command, tuned for a specific area of frontend & UI/UX craft. From Tailwind systems to dark UI patterns, from mobile-first layouts to high-end visual polish — this repo turns Claude into a design expert on demand.
 
 > **These aren't prompts. These are agents with taste.**
 
@@ -31,40 +31,46 @@ A growing arsenal of **design intelligence** — each folder is a standalone Cla
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=15&pause=2000&color=6C63FF&center=true&vCenter=true&width=500&lines=3+steps.+Under+60+seconds." alt="Typing SVG" />
-
-<br/>
-
-**`01`** &nbsp;—&nbsp; Clone &nbsp;&nbsp;&nbsp; **`02`** &nbsp;—&nbsp; Drop in `.agents` &nbsp;&nbsp;&nbsp; **`03`** &nbsp;—&nbsp; Run Claude
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=15&pause=2000&color=6C63FF&center=true&vCenter=true&width=500&lines=Install+only+what+you+need.;One+command+per+skill." alt="Typing SVG" />
 
 </div>
 
 <br/>
 
-**Step 1 — Clone the repo**
+Every skill is installed straight from its upstream repo with the [`skills`](https://skills.sh) CLI, so you always get the latest version and the original author's updates. Run the command from your project root.
+
+**Install a single skill**
 
 ```bash
-git clone https://github.com/akshat96af/frontendskills.git
+npx skills add emilkowalski/skills --skill animate
 ```
 
-**Step 2 — Drop the `.agents` folder into your project root**
+**Install everything in this list**
 
+Copy individual commands from the Skill Index below, or run them in bulk:
+
+```bash
+# Emil Kowalski
+npx skills add emilkowalski/skills --skill animate --skill animation-vocabulary --skill apple-design --skill ask-sonner --skill emil-design-eng --skill find-animation-opportunities --skill improve-animations --skill pick-ui-library --skill prototype --skill review-animations
+
+# Taste Skill
+npx skills add Leonxlnx/taste-skill --skill design-taste-frontend --skill high-end-visual-design --skill minimalist-ui
+
+# Community collection
+npx skills add sickn33/agentic-awesome-skills --skill angular-ui-patterns --skill antigravity-design-expert --skill frontend-ui-dark-ts --skill magic-ui-generator --skill mobile-design --skill radix-ui-design-system --skill stitch-ui-design --skill tailwind-design-system --skill ui-ux-designer --skill ui-visual-validator
+
+# Individual repos
+npx skills add google-labs-code/stitch-skills --skill design-md
+npx skills add anthropics/skills --skill frontend-design
+npx skills add remotion-dev/skills --skill remotion-best-practices
+npx skills add ibelick/ui-skills --skill ui-skills
+npx skills add nextlevelbuilder/ui-ux-pro-max-skill --skill ui-ux-pro-max
+npx skills add vercel-labs/agent-skills --skill web-design-guidelines
 ```
-your-project/
-├── .agents/          ← paste this here
-│   └── skills/
-│       ├── antigravity-design-expert/
-│       ├── design-md/
-│       ├── frontend-design/
-│       └── ... (all skill folders)
-└── src/
-```
 
-> 💡 `.agents` must live at the **root level** so Claude Code auto-detects and loads the skills.
+> 💡 The CLI asks which agent(s) to install for and places the skills where that agent auto-detects them. No extra config needed.
 
-**Step 3 — Start your AI agent**
-
-Once the `.agents` folder is in your project root, your AI agent will **automatically detect and reference these skills** — no extra config needed. Just start working and it will pull design intelligence from the relevant skill folders as context.
+> 📁 `.agents/skills/ui` in this repo is a set of copy-ready shadcn/ui components, not a skill. It is the only thing stored here.
 
 <div align="center">
 
@@ -85,38 +91,37 @@ Once the `.agents` folder is in your project root, your AI agent will **automati
 
 <br/>
 
-| &nbsp; | Folder | What It Does |
-|:---:|---|---|
-| 🔷 | `angular-ui-patterns` | Angular-specific component architecture & design patterns |
-| 🪄 | `animate` | Builds animations from scratch with correct curves and duration |
-| 💬 | `animation-vocabulary` | The right words to get better animations from AI |
-| 🌌 | `antigravity-design-expert` | Advanced, gravity-defying visual compositions |
-| 🍏 | `apple-design` | Apple's interface and fluid motion principles for the web |
-| 🍞 | `ask-sonner` | Complete guide to Sonner toasts: setup, styling, recipes, and fixes |
-| 📐 | `design-md` | Markdown-driven design documentation & system specs |
-| 🎨 | `design-taste-frontend` | Opinionated aesthetic direction with real taste |
-| 🛠️ | `emil-design-eng` | Core animation principles and opinionated design advice |
-| 🎯 | `find-animation-opportunities` | Searches UI for genuine motion opportunities and what to avoid |
-| ✦ | `frontend-design` | Core UI design principles, layout, and visual systems |
-| 🌑 | `frontend-ui-dark-ts` | Dark mode UI with TypeScript-first component design |
-| 💎 | `high-end-visual-design` | Luxury-grade, production-quality visual output |
-| 📋 | `improve-animations` | Codebase-wide animation audits with self-contained plans |
-| ✨ | `magic-ui-generator` | Auto-generates UI components with visual flair |
-| ◻️ | `minimalist-ui` | Precision minimalism — every pixel justified |
-| 📱 | `mobile-design` | Mobile-first patterns, gestures, and responsive layouts |
-| 📦 | `pick-ui-library` | Picks trusted UI libraries instead of hand-rolling components |
-| 🔄 | `prototype` | Builds multiple UI versions to go through using a switcher |
-| 🧱 | `radix-ui-design-system` | Radix UI primitives, accessibility, and system tokens |
-| 🎬 | `remotion` | Code-driven video & animation design with React |
-| 🧐 | `review-animations` | Strict, rules-based review of your UI animations |
-| 🧵 | `stitch-ui-design` | Composable, stitched-together UI component systems |
-| 🌊 | `tailwind-design-system` | Tailwind CSS design tokens, utilities & scale |
-| 🖥️ | `ui` | General-purpose UI reasoning and component patterns |
-| 🧠 | `ui-skills` | Meta-skills for UI decision-making |
-| 🎭 | `ui-ux-designer` | Full-stack UX thinking from flow to pixel |
-| 🚀 | `ui-ux-pro-max` | Elite UI/UX — for when good isn't enough |
-| 🔍 | `ui-visual-validator` | Validates visual output against design principles |
-| 📏 | `web-design-guidelines` | Opinionated web design standards & best practices |
+| &nbsp; | Skill | What It Does | Install |
+|:---:|---|---|---|
+| 🔷 | `angular-ui-patterns` | Angular-specific component architecture & design patterns | `npx skills add sickn33/agentic-awesome-skills --skill angular-ui-patterns` |
+| 🪄 | `animate` | Builds animations from scratch with correct curves and duration | `npx skills add emilkowalski/skills --skill animate` |
+| 💬 | `animation-vocabulary` | The right words to get better animations from AI | `npx skills add emilkowalski/skills --skill animation-vocabulary` |
+| 🌌 | `antigravity-design-expert` | Advanced, gravity-defying visual compositions | `npx skills add sickn33/agentic-awesome-skills --skill antigravity-design-expert` |
+| 🍏 | `apple-design` | Apple's interface and fluid motion principles for the web | `npx skills add emilkowalski/skills --skill apple-design` |
+| 🍞 | `ask-sonner` | Complete guide to Sonner toasts: setup, styling, recipes, and fixes | `npx skills add emilkowalski/skills --skill ask-sonner` |
+| 📐 | `design-md` | Markdown-driven design documentation & system specs | `npx skills add google-labs-code/stitch-skills --skill design-md` |
+| 🎨 | `design-taste-frontend` | Opinionated aesthetic direction with real taste | `npx skills add Leonxlnx/taste-skill --skill design-taste-frontend` |
+| 🛠️ | `emil-design-eng` | Core animation principles and opinionated design advice | `npx skills add emilkowalski/skills --skill emil-design-eng` |
+| 🎯 | `find-animation-opportunities` | Searches UI for genuine motion opportunities and what to avoid | `npx skills add emilkowalski/skills --skill find-animation-opportunities` |
+| ✦ | `frontend-design` | Core UI design principles, layout, and visual systems | `npx skills add anthropics/skills --skill frontend-design` |
+| 🌑 | `frontend-ui-dark-ts` | Dark mode UI with TypeScript-first component design | `npx skills add sickn33/agentic-awesome-skills --skill frontend-ui-dark-ts` |
+| 💎 | `high-end-visual-design` | Luxury-grade, production-quality visual output | `npx skills add Leonxlnx/taste-skill --skill high-end-visual-design` |
+| 📋 | `improve-animations` | Codebase-wide animation audits with self-contained plans | `npx skills add emilkowalski/skills --skill improve-animations` |
+| ✨ | `magic-ui-generator` | Auto-generates UI components with visual flair | `npx skills add sickn33/agentic-awesome-skills --skill magic-ui-generator` |
+| ◻️ | `minimalist-ui` | Precision minimalism — every pixel justified | `npx skills add Leonxlnx/taste-skill --skill minimalist-ui` |
+| 📱 | `mobile-design` | Mobile-first patterns, gestures, and responsive layouts | `npx skills add sickn33/agentic-awesome-skills --skill mobile-design` |
+| 📦 | `pick-ui-library` | Picks trusted UI libraries instead of hand-rolling components | `npx skills add emilkowalski/skills --skill pick-ui-library` |
+| 🔄 | `prototype` | Builds multiple UI versions to go through using a switcher | `npx skills add emilkowalski/skills --skill prototype` |
+| 🧱 | `radix-ui-design-system` | Radix UI primitives, accessibility, and system tokens | `npx skills add sickn33/agentic-awesome-skills --skill radix-ui-design-system` |
+| 🎬 | `remotion` | Code-driven video & animation design with React | `npx skills add remotion-dev/skills --skill remotion-best-practices` |
+| 🧐 | `review-animations` | Strict, rules-based review of your UI animations | `npx skills add emilkowalski/skills --skill review-animations` |
+| 🧵 | `stitch-ui-design` | Prompting Google Stitch for high-quality UI designs | `npx skills add sickn33/agentic-awesome-skills --skill stitch-ui-design` |
+| 🌊 | `tailwind-design-system` | Tailwind CSS design tokens, utilities & scale | `npx skills add sickn33/agentic-awesome-skills --skill tailwind-design-system` |
+| 🧠 | `ui-skills` | Opinionated constraints to guide agents building interfaces | `npx skills add ibelick/ui-skills --skill ui-skills` |
+| 🎭 | `ui-ux-designer` | Full-stack UX thinking from flow to pixel | `npx skills add sickn33/agentic-awesome-skills --skill ui-ux-designer` |
+| 🚀 | `ui-ux-pro-max` | Elite UI/UX — for when good isn't enough | `npx skills add nextlevelbuilder/ui-ux-pro-max-skill --skill ui-ux-pro-max` |
+| 🔍 | `ui-visual-validator` | Validates visual output against design principles | `npx skills add sickn33/agentic-awesome-skills --skill ui-visual-validator` |
+| 📏 | `web-design-guidelines` | Opinionated web design standards & best practices | `npx skills add vercel-labs/agent-skills --skill web-design-guidelines` |
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
@@ -136,6 +141,7 @@ A curated list of tools, galleries, and component libraries that pair perfectly 
 | [shadergradient.co](https://shadergradient.co/) | Beautiful animated shader gradients for backgrounds |
 | [horizonx.so](https://horizonx.so) | Premium UI kits, components & Figma resources |
 | [getlayers.ai](https://www.getlayers.ai/) | Curated gallery of real-world website designs |
+| [designprompts.dev](https://www.designprompts.dev/) | 31+ design styles with AI-ready prompts to recreate each aesthetic |
 
 ### 🧩 Components & UI Libraries
 
@@ -148,8 +154,15 @@ A curated list of tools, galleries, and component libraries that pair perfectly 
 | [ui.watermelon.sh](https://ui.watermelon.sh/) | Fresh, modern component templates |
 | [typeui.sh](https://www.typeui.sh/) | Typography-first UI system |
 | [21st.dev](https://21st.dev/community/components) | Community-driven component library |
-| [reactbits.dev](https://reactbits.dev/) | Interactive animated components & backgrounds |
+| [reactbits.dev](https://reactbits.dev/) · [Get Started](https://reactbits.dev/get-started/index) | Interactive animated components & backgrounds, plus the setup guide |
 | [uiverse.io](https://uiverse.io/) | Community-built collection of open-source UI elements |
+
+### 🌀 3D & Motion
+
+| Resource | Description |
+|---|---|
+| [threeui.com](https://threeui.com/browse) | Copy-ready Three.js components, WebGL backgrounds, hero sections & landing page templates |
+| [animmasterlib.dev](https://animmasterlib.dev/) | 300 animated components: scroll, WebGL shaders, hero sections, sliders *(paid)* |
 
 ### 🛠️ Dev Resources
 
@@ -157,15 +170,16 @@ A curated list of tools, galleries, and component libraries that pair perfectly 
 |---|---|
 | [blog.vibecoder.me](https://blog.vibecoder.me/) | Templates, APIs & database patterns |
 | [promptweb.design](https://www.promptweb.design/) | Web design prompts for AI-assisted building |
+| [bolt.new/resources/templates](https://bolt.new/resources/templates) | Starter templates for the Bolt AI app builder |
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ## 🤝 Contributing
 
-Found a skill gap? Have a design domain that's underrepresented?
+Found a skill worth listing? Have a design domain that's underrepresented?
 
 1. Fork the repo
-2. Create your skill folder with a well-structured `SKILL.md`
+2. Add a row to the Skill Index with the skill's upstream repo and its `npx skills add` command
 3. Open a PR with a clear description of what the skill does
 
 Good skills are **focused**, **opinionated**, and **actionable** — not generic advice.
