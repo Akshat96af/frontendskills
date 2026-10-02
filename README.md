@@ -162,6 +162,7 @@ A curated list of tools, galleries, and component libraries that pair perfectly 
 |---|---|
 | [threeui.com](https://threeui.com/browse) | Copy-ready Three.js components, WebGL backgrounds, hero sections & landing page templates |
 | [gsap.com/showcase](https://gsap.com/showcase/) | Official showcase of award-winning sites built with GSAP animation |
+| [motion.dev](https://motion.dev/) | Motion (formerly Framer Motion) animation library for JavaScript, React & Vue, with docs and examples |
 
 ### 🛠️ Dev Resources
 
